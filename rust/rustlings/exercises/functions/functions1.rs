@@ -5,7 +5,9 @@ fn main() {
     call_me();
 }
 
-
+fn call_me() {
+  println!("Call me, call me, let me know you're still there!")
+}
 
 
 

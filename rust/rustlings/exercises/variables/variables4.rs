@@ -2,7 +2,7 @@
 // Make me compile! Scroll down for hints :)
 
 fn main() {
-    let x: i32;
+    let x: i32 = 200;
     println!("Number {}", x);
 }
 
