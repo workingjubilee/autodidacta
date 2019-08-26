@@ -2,12 +2,13 @@
 // Make me compile! Scroll down for hints :)
 
 mod sausage_factory {
-    fn make_sausage() {
+    pub fn make_sausage() {
         println!("sausage!");
     }
 }
 
 fn main() {
+
     sausage_factory::make_sausage();
 }
 

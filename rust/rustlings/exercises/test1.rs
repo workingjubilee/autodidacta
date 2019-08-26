@@ -8,7 +8,13 @@
 // the price of an order of apples given the order amount. No hints this time!
 
 // Put your function here!
-// fn ..... {
+fn calculate_price(apples: u32) -> u32 {
+  match apples {
+    0        => 0,
+    1 ..= 40 => apples*2,
+    _        => apples
+  }
+}
 
 // Don't modify this function!
 #[test]
